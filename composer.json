@@ -29,5 +29,15 @@
     "allow-plugins": {
       "php-http/discovery": true
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Idada\\LaravelNeo4j\\Providers\\Neo4jServiceProvider"
+      ],
+      "aliases": {
+        "Neo4j": "Idada\\LaravelNeo4j\\Facades\\Neo4j"
+      }
+    }
   }
 }
