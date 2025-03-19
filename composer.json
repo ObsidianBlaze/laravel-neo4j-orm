@@ -8,6 +8,11 @@
       "Idada\\LaravelNeo4j\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
   "authors": [
     {
       "name": "Idada Osaigbovo James",
