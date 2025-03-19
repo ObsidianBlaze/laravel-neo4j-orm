@@ -1,0 +1,33 @@
+{
+  "name": "idada/laravel-neo4j",
+  "description": "A lightweight Eloquent-style ORM for Neo4j, designed for Laravel applications.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Idada\\LaravelNeo4j\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Idada Osaigbovo James",
+      "email": "wijojames@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.0.2",
+    "laravel/framework": "^9.0",
+    "laudis/neo4j-php-client": "^2.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "mockery/mockery": "^1.5",
+    "orchestra/testbench": "^7.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
